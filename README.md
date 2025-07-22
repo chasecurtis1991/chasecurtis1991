@@ -1,5 +1,5 @@
 # 💫 About Me:
-🛜I'm currently working on my website<br>🌱I'm currently learning C#, .NET, and Next.js<br>💬Ask me about anything tech related! I'm pretty good at it 😉<br>⚡Fun fact: I like video games
+🛜I'm currently working on my employer's website<br>🌱I'm currently learning C#, .NET, and Next.js<br>💬Ask me about anything tech related! I'm pretty good at it 😉<br>⚡Fun fact: I like video games
 
 
 ## 🌐 Socials:
