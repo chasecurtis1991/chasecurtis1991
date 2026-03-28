@@ -34,7 +34,7 @@ Next.js tool integrating the Claude API to generate and publish SEO-optimized pr
 Node.js systemd service polling Google Drive for new PDF documents → auto-uploads to Shopify Files → updates Liquid templates alphabetically. Eliminated hours of weekly manual work across 250+ product documents.
 
 ### 📊 Vynlo AI Dashboard
-Full-stack Next.js app with Express backend, SQLite, and shadcn/ui. Built as the foundation for an AI automation agency targeting SMBs.
+Full-stack Next.js app with Express backend, SQLite, and shadcn/ui. Built as the foundation for an AI automation agency targeting SMBs. → [View on GitHub](https://github.com/chasecurtis1991/vynlo-ai-dashboard)
 
 ### 🎵 Spotify Now Playing Widget
 Real-time song tracker with live progress bar and auto-updating track info. → [View on GitHub](https://github.com/chasecurtis1991/cyberus)
