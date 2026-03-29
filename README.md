@@ -31,7 +31,7 @@ Currently serving as Technical Director at a Shopify Plus e-commerce company —
 Next.js tool integrating the Claude API to generate and publish SEO-optimized product page content directly to Shopify — replaced a $2K/month agency workflow.
 
 ### ⚙️ COA Automation Pipeline
-Node.js systemd service polling Google Drive for new PDF documents → auto-uploads to Shopify Files → updates Liquid templates alphabetically. Eliminated hours of weekly manual work across 250+ product documents.
+Node.js systemd service polling Google Drive for new PDF documents → auto-uploads to Shopify Files → updates Liquid templates alphabetically. Eliminated hours of weekly manual work across 250+ product documents.  → [View on GitHub](https://github.com/chasecurtis1991/certificate-of-analysis-processor)
 
 ### 📊 Vynlo AI Dashboard
 Full-stack Next.js app with Express backend, SQLite, and shadcn/ui. Built as the foundation for an AI automation agency targeting SMBs. → [View on GitHub](https://github.com/chasecurtis1991/vynlo-ai-dashboard)
