@@ -6,6 +6,14 @@ Currently serving as Technical Director at a Shopify Plus e-commerce company —
 
 ---
 
+## 🤖 ChatGPT + Codex Activity
+
+![MotoChase’s ChatGPT and Codex activity: token totals, streaks, daily heatmap, and most used skills and plugins](https://raw.githubusercontent.com/chasecurtis1991/chasecurtis1991/codex-stats/assets/codex-activity.svg)
+
+<sub>Automatically refreshed hourly from my Mac while the desktop app is running. The card shows the last successful update.</sub>
+
+---
+
 ## 🛠️ Tech Stack
 
 **Frontend**
