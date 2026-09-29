@@ -1,0 +1,720 @@
+{
+  "schema_version": 1,
+  "source": "ChatGPT desktop profile",
+  "as_of_date": "2026-09-29",
+  "profile": {
+    "display_name": "MotoChase",
+    "username": "motochase"
+  },
+  "stats": {
+    "lifetime_tokens": 698745204,
+    "peak_daily_tokens": 171724138,
+    "current_streak_days": 128,
+    "longest_streak_days": 128,
+    "total_threads": 578,
+    "longest_running_turn_sec": 1632,
+    "fast_mode_usage_percentage": 2.46734397677794,
+    "total_skills_used": 32,
+    "unique_skills_used": 16,
+    "most_used_reasoning_effort_percentage": 45.70743405275779,
+    "most_used_reasoning_effort": "medium",
+    "daily_usage_buckets": [
+      {
+        "start_date": "2026-01-30",
+        "tokens": 1345958
+      },
+      {
+        "start_date": "2026-02-02",
+        "tokens": 2473638
+      },
+      {
+        "start_date": "2026-02-04",
+        "tokens": 15792
+      },
+      {
+        "start_date": "2026-02-05",
+        "tokens": 20682
+      },
+      {
+        "start_date": "2026-02-07",
+        "tokens": 54206
+      },
+      {
+        "start_date": "2026-02-09",
+        "tokens": 2016238
+      },
+      {
+        "start_date": "2026-02-13",
+        "tokens": 34878778
+      },
+      {
+        "start_date": "2026-02-18",
+        "tokens": 920685
+      },
+      {
+        "start_date": "2026-02-19",
+        "tokens": 12676100
+      },
+      {
+        "start_date": "2026-02-20",
+        "tokens": 16687564
+      },
+      {
+        "start_date": "2026-02-21",
+        "tokens": 470298
+      },
+      {
+        "start_date": "2026-02-22",
+        "tokens": 5538069
+      },
+      {
+        "start_date": "2026-02-23",
+        "tokens": 344457
+      },
+      {
+        "start_date": "2026-02-24",
+        "tokens": 1257838
+      },
+      {
+        "start_date": "2026-02-25",
+        "tokens": 11796926
+      },
+      {
+        "start_date": "2026-02-26",
+        "tokens": 259123
+      },
+      {
+        "start_date": "2026-02-27",
+        "tokens": 3846109
+      },
+      {
+        "start_date": "2026-02-28",
+        "tokens": 518892
+      },
+      {
+        "start_date": "2026-03-01",
+        "tokens": 3436712
+      },
+      {
+        "start_date": "2026-03-02",
+        "tokens": 576663
+      },
+      {
+        "start_date": "2026-03-03",
+        "tokens": 389400
+      },
+      {
+        "start_date": "2026-03-04",
+        "tokens": 165344
+      },
+      {
+        "start_date": "2026-03-12",
+        "tokens": 53134
+      },
+      {
+        "start_date": "2026-03-13",
+        "tokens": 69801
+      },
+      {
+        "start_date": "2026-03-14",
+        "tokens": 36289
+      },
+      {
+        "start_date": "2026-03-15",
+        "tokens": 33230590
+      },
+      {
+        "start_date": "2026-03-16",
+        "tokens": 35685
+      },
+      {
+        "start_date": "2026-03-17",
+        "tokens": 40354
+      },
+      {
+        "start_date": "2026-03-18",
+        "tokens": 194547
+      },
+      {
+        "start_date": "2026-03-19",
+        "tokens": 85809
+      },
+      {
+        "start_date": "2026-03-20",
+        "tokens": 40488
+      },
+      {
+        "start_date": "2026-03-21",
+        "tokens": 36149
+      },
+      {
+        "start_date": "2026-03-22",
+        "tokens": 183787
+      },
+      {
+        "start_date": "2026-03-23",
+        "tokens": 12090
+      },
+      {
+        "start_date": "2026-03-24",
+        "tokens": 36929
+      },
+      {
+        "start_date": "2026-04-12",
+        "tokens": 3458556
+      },
+      {
+        "start_date": "2026-05-01",
+        "tokens": 151886
+      },
+      {
+        "start_date": "2026-05-04",
+        "tokens": 72141
+      },
+      {
+        "start_date": "2026-05-05",
+        "tokens": 9679992
+      },
+      {
+        "start_date": "2026-05-25",
+        "tokens": 16815495
+      },
+      {
+        "start_date": "2026-05-26",
+        "tokens": 2669034
+      },
+      {
+        "start_date": "2026-05-27",
+        "tokens": 835132
+      },
+      {
+        "start_date": "2026-05-28",
+        "tokens": 8415608
+      },
+      {
+        "start_date": "2026-05-29",
+        "tokens": 1413461
+      },
+      {
+        "start_date": "2026-05-30",
+        "tokens": 1049961
+      },
+      {
+        "start_date": "2026-05-31",
+        "tokens": 37180389
+      },
+      {
+        "start_date": "2026-06-01",
+        "tokens": 2367621
+      },
+      {
+        "start_date": "2026-06-02",
+        "tokens": 2000957
+      },
+      {
+        "start_date": "2026-06-03",
+        "tokens": 673365
+      },
+      {
+        "start_date": "2026-06-04",
+        "tokens": 4190444
+      },
+      {
+        "start_date": "2026-06-05",
+        "tokens": 872569
+      },
+      {
+        "start_date": "2026-06-06",
+        "tokens": 566762
+      },
+      {
+        "start_date": "2026-06-07",
+        "tokens": 787207
+      },
+      {
+        "start_date": "2026-06-08",
+        "tokens": 1038306
+      },
+      {
+        "start_date": "2026-06-09",
+        "tokens": 655316
+      },
+      {
+        "start_date": "2026-06-10",
+        "tokens": 788316
+      },
+      {
+        "start_date": "2026-06-11",
+        "tokens": 3434898
+      },
+      {
+        "start_date": "2026-06-12",
+        "tokens": 7077048
+      },
+      {
+        "start_date": "2026-06-13",
+        "tokens": 498365
+      },
+      {
+        "start_date": "2026-06-14",
+        "tokens": 510149
+      },
+      {
+        "start_date": "2026-06-15",
+        "tokens": 1432694
+      },
+      {
+        "start_date": "2026-06-16",
+        "tokens": 859772
+      },
+      {
+        "start_date": "2026-06-17",
+        "tokens": 1286134
+      },
+      {
+        "start_date": "2026-06-18",
+        "tokens": 837964
+      },
+      {
+        "start_date": "2026-06-19",
+        "tokens": 711388
+      },
+      {
+        "start_date": "2026-06-20",
+        "tokens": 434037
+      },
+      {
+        "start_date": "2026-06-21",
+        "tokens": 2325833
+      },
+      {
+        "start_date": "2026-06-22",
+        "tokens": 1151860
+      },
+      {
+        "start_date": "2026-06-23",
+        "tokens": 739607
+      },
+      {
+        "start_date": "2026-06-24",
+        "tokens": 853794
+      },
+      {
+        "start_date": "2026-06-25",
+        "tokens": 1181478
+      },
+      {
+        "start_date": "2026-06-26",
+        "tokens": 1416222
+      },
+      {
+        "start_date": "2026-06-27",
+        "tokens": 876887
+      },
+      {
+        "start_date": "2026-06-28",
+        "tokens": 724728
+      },
+      {
+        "start_date": "2026-06-29",
+        "tokens": 1168358
+      },
+      {
+        "start_date": "2026-06-30",
+        "tokens": 1039881
+      },
+      {
+        "start_date": "2026-07-01",
+        "tokens": 1660353
+      },
+      {
+        "start_date": "2026-07-02",
+        "tokens": 1179363
+      },
+      {
+        "start_date": "2026-07-03",
+        "tokens": 1200791
+      },
+      {
+        "start_date": "2026-07-04",
+        "tokens": 806505
+      },
+      {
+        "start_date": "2026-07-05",
+        "tokens": 895725
+      },
+      {
+        "start_date": "2026-07-06",
+        "tokens": 1182622
+      },
+      {
+        "start_date": "2026-07-07",
+        "tokens": 777975
+      },
+      {
+        "start_date": "2026-07-08",
+        "tokens": 863572
+      },
+      {
+        "start_date": "2026-07-09",
+        "tokens": 738030
+      },
+      {
+        "start_date": "2026-07-10",
+        "tokens": 628534
+      },
+      {
+        "start_date": "2026-07-11",
+        "tokens": 650057
+      },
+      {
+        "start_date": "2026-07-12",
+        "tokens": 857656
+      },
+      {
+        "start_date": "2026-07-13",
+        "tokens": 1028988
+      },
+      {
+        "start_date": "2026-07-14",
+        "tokens": 644938
+      },
+      {
+        "start_date": "2026-07-15",
+        "tokens": 574553
+      },
+      {
+        "start_date": "2026-07-16",
+        "tokens": 540689
+      },
+      {
+        "start_date": "2026-07-17",
+        "tokens": 588017
+      },
+      {
+        "start_date": "2026-07-18",
+        "tokens": 546918
+      },
+      {
+        "start_date": "2026-07-19",
+        "tokens": 489426
+      },
+      {
+        "start_date": "2026-07-20",
+        "tokens": 1474712
+      },
+      {
+        "start_date": "2026-07-21",
+        "tokens": 829435
+      },
+      {
+        "start_date": "2026-07-22",
+        "tokens": 622883
+      },
+      {
+        "start_date": "2026-07-23",
+        "tokens": 532634
+      },
+      {
+        "start_date": "2026-07-24",
+        "tokens": 662451
+      },
+      {
+        "start_date": "2026-07-25",
+        "tokens": 878897
+      },
+      {
+        "start_date": "2026-07-26",
+        "tokens": 833819
+      },
+      {
+        "start_date": "2026-07-27",
+        "tokens": 998518
+      },
+      {
+        "start_date": "2026-07-28",
+        "tokens": 800609
+      },
+      {
+        "start_date": "2026-07-29",
+        "tokens": 1002354
+      },
+      {
+        "start_date": "2026-07-30",
+        "tokens": 665990
+      },
+      {
+        "start_date": "2026-07-31",
+        "tokens": 557426
+      },
+      {
+        "start_date": "2026-08-01",
+        "tokens": 895240
+      },
+      {
+        "start_date": "2026-08-02",
+        "tokens": 530786
+      },
+      {
+        "start_date": "2026-08-03",
+        "tokens": 951068
+      },
+      {
+        "start_date": "2026-08-04",
+        "tokens": 646860
+      },
+      {
+        "start_date": "2026-08-05",
+        "tokens": 754622
+      },
+      {
+        "start_date": "2026-08-06",
+        "tokens": 658579
+      },
+      {
+        "start_date": "2026-08-07",
+        "tokens": 657066
+      },
+      {
+        "start_date": "2026-08-08",
+        "tokens": 502609
+      },
+      {
+        "start_date": "2026-08-09",
+        "tokens": 848805
+      },
+      {
+        "start_date": "2026-08-10",
+        "tokens": 847691
+      },
+      {
+        "start_date": "2026-08-11",
+        "tokens": 11461900
+      },
+      {
+        "start_date": "2026-08-12",
+        "tokens": 1179296
+      },
+      {
+        "start_date": "2026-08-13",
+        "tokens": 351337
+      },
+      {
+        "start_date": "2026-08-14",
+        "tokens": 843450
+      },
+      {
+        "start_date": "2026-08-15",
+        "tokens": 482596
+      },
+      {
+        "start_date": "2026-08-16",
+        "tokens": 711103
+      },
+      {
+        "start_date": "2026-08-17",
+        "tokens": 954143
+      },
+      {
+        "start_date": "2026-08-18",
+        "tokens": 670273
+      },
+      {
+        "start_date": "2026-08-19",
+        "tokens": 451765
+      },
+      {
+        "start_date": "2026-08-20",
+        "tokens": 384940
+      },
+      {
+        "start_date": "2026-08-21",
+        "tokens": 713212
+      },
+      {
+        "start_date": "2026-08-22",
+        "tokens": 502517
+      },
+      {
+        "start_date": "2026-08-23",
+        "tokens": 563198
+      },
+      {
+        "start_date": "2026-08-24",
+        "tokens": 1343114
+      },
+      {
+        "start_date": "2026-08-25",
+        "tokens": 1333483
+      },
+      {
+        "start_date": "2026-08-26",
+        "tokens": 684453
+      },
+      {
+        "start_date": "2026-08-27",
+        "tokens": 908776
+      },
+      {
+        "start_date": "2026-08-28",
+        "tokens": 1410525
+      },
+      {
+        "start_date": "2026-08-29",
+        "tokens": 470658
+      },
+      {
+        "start_date": "2026-08-30",
+        "tokens": 359201
+      },
+      {
+        "start_date": "2026-08-31",
+        "tokens": 1011396
+      },
+      {
+        "start_date": "2026-09-01",
+        "tokens": 592069
+      },
+      {
+        "start_date": "2026-09-02",
+        "tokens": 1419881
+      },
+      {
+        "start_date": "2026-09-03",
+        "tokens": 241204
+      },
+      {
+        "start_date": "2026-09-04",
+        "tokens": 208589
+      },
+      {
+        "start_date": "2026-09-05",
+        "tokens": 132492
+      },
+      {
+        "start_date": "2026-09-06",
+        "tokens": 108073
+      },
+      {
+        "start_date": "2026-09-07",
+        "tokens": 809610
+      },
+      {
+        "start_date": "2026-09-08",
+        "tokens": 428813
+      },
+      {
+        "start_date": "2026-09-09",
+        "tokens": 243931
+      },
+      {
+        "start_date": "2026-09-10",
+        "tokens": 235412
+      },
+      {
+        "start_date": "2026-09-11",
+        "tokens": 162924
+      },
+      {
+        "start_date": "2026-09-12",
+        "tokens": 202676
+      },
+      {
+        "start_date": "2026-09-13",
+        "tokens": 226836
+      },
+      {
+        "start_date": "2026-09-14",
+        "tokens": 23503203
+      },
+      {
+        "start_date": "2026-09-15",
+        "tokens": 25573349
+      },
+      {
+        "start_date": "2026-09-16",
+        "tokens": 2182079
+      },
+      {
+        "start_date": "2026-09-17",
+        "tokens": 6852590
+      },
+      {
+        "start_date": "2026-09-18",
+        "tokens": 13683257
+      },
+      {
+        "start_date": "2026-09-19",
+        "tokens": 180314
+      },
+      {
+        "start_date": "2026-09-20",
+        "tokens": 2948731
+      },
+      {
+        "start_date": "2026-09-21",
+        "tokens": 187608
+      },
+      {
+        "start_date": "2026-09-22",
+        "tokens": 10850419
+      },
+      {
+        "start_date": "2026-09-23",
+        "tokens": 171724138
+      },
+      {
+        "start_date": "2026-09-24",
+        "tokens": 42244115
+      },
+      {
+        "start_date": "2026-09-25",
+        "tokens": 4308180
+      },
+      {
+        "start_date": "2026-09-26",
+        "tokens": 155597
+      },
+      {
+        "start_date": "2026-09-27",
+        "tokens": 57828273
+      },
+      {
+        "start_date": "2026-09-28",
+        "tokens": 13506590
+      },
+      {
+        "start_date": "2026-09-29",
+        "tokens": 216410
+      }
+    ],
+    "top_invocations": [
+      {
+        "type": "skill",
+        "name": "imagegen",
+        "usage_count": 13
+      },
+      {
+        "type": "plugin",
+        "name": "anthropic-skills",
+        "usage_count": 2
+      },
+      {
+        "type": "plugin",
+        "name": "google-drive",
+        "usage_count": 2
+      },
+      {
+        "type": "plugin",
+        "name": "pdf",
+        "usage_count": 2
+      },
+      {
+        "type": "skill",
+        "name": "grilling",
+        "usage_count": 2
+      }
+    ]
+  },
+  "updated_at": "2026-09-29T23:55:30+00:00"
+}
