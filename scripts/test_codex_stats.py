@@ -33,6 +33,7 @@ class ProfileStatsTests(unittest.TestCase):
     def test_only_public_fields_are_retained(self):
         data = self.data()
         self.assertNotIn("PRIVATE_SENTINEL", json.dumps(data))
+        self.assertNotIn("motochase", json.dumps(data).lower())
         self.assertEqual(data["stats"]["lifetime_tokens"], 698745204)
         self.assertEqual(data["stats"]["total_threads"], 578)
 
@@ -46,11 +47,11 @@ class ProfileStatsTests(unittest.TestCase):
 
     def test_card_escapes_text_and_renders_correct_values(self):
         data = self.data()
-        data["profile"]["display_name"] = "<Moto & Chase>"
+        data["stats"]["top_invocations"][0]["name"] = "<Image & Gen>"
         data["updated_at"] = self.now.isoformat()
         root = ET.fromstring(stats.render_card(data))
         text = "".join(root.itertext())
-        for value in ("<Moto & Chase>", "698.7M", "171.7M", "128 days", "27m 12s"):
+        for value in ("<Image & Gen>", "ChatGPT + Codex", "698.7M", "171.7M", "128 days", "27m 12s"):
             self.assertIn(value, text)
         self.assertGreater(len(root.findall(".//{http://www.w3.org/2000/svg}rect")), 350)
 

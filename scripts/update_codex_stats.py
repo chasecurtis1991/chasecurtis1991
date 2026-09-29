@@ -71,7 +71,7 @@ def number(value, name):
 def public_data(response, now):
     if response.get("metadata", {}).get("stats_error"):
         raise ValueError("The profile service reported a stats error; previous stats retained.")
-    profile, raw = response["profile"], response["stats"]
+    raw = response["stats"]
     stats = {key: number(raw[key], key) for key in METRICS}
     stats["most_used_reasoning_effort"] = str(raw.get("most_used_reasoning_effort") or "Unknown")[:60]
     buckets = raw.get("daily_usage_buckets")
@@ -97,10 +97,8 @@ def public_data(response, now):
             invocations.append({"type": kind, "name": str(name)[:120],
                                 "usage_count": number(item["usage_count"], "usage_count")})
     stats["top_invocations"] = invocations
-    return {"schema_version": 1, "source": "ChatGPT desktop profile",
+    return {"schema_version": 2, "source": "ChatGPT desktop profile",
             "as_of_date": now.date().isoformat(),
-            "profile": {"display_name": str(profile.get("display_name") or "MotoChase")[:120],
-                        "username": str(profile.get("username") or "motochase")[:120]},
             "stats": stats}
 
 
@@ -112,22 +110,22 @@ def compact(value):
 
 
 def render_card(data):
-    s, profile = data["stats"], data["profile"]
+    s = data["stats"]
     today = dt.date.fromisoformat(data["as_of_date"])
     updated = dt.datetime.fromisoformat(data["updated_at"]).astimezone(ZONE).strftime("%b %d, %Y · %I:%M %p %Z")
     seconds = int(s["longest_running_turn_sec"])
     duration = f"{seconds // 60}m {seconds % 60}s" if seconds >= 60 else f"{seconds}s"
     parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660" role="img" aria-labelledby="title desc">',
              '<title id="title">ChatGPT activity profile</title>',
-             f'<desc id="desc">{html.escape(profile["display_name"])}: {s["lifetime_tokens"]:,.0f} lifetime tokens, {s["total_threads"]:,.0f} chats, {s["current_streak_days"]:,.0f} day streak. Updated {html.escape(updated)}.</desc>',
+             f'<desc id="desc">ChatGPT + Codex activity: {s["lifetime_tokens"]:,.0f} lifetime tokens, {s["total_threads"]:,.0f} chats, {s["current_streak_days"]:,.0f} day streak. Updated {html.escape(updated)}.</desc>',
              '<rect x="1" y="1" width="1098" height="658" rx="22" fill="#15181e" stroke="#303641"/>',
              '<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">']
 
     def text(x, y, value, size=15, color="#a6afbf", weight="400", anchor="start"):
         parts.append(f'<text x="{x}" y="{y}" font-size="{size}" fill="{color}" font-weight="{weight}" text-anchor="{anchor}">{html.escape(str(value))}</text>')
 
-    text(44, 53, profile["display_name"], 30, "#f2f5fa", "650")
-    text(44, 82, "@" + profile["username"] + " · ChatGPT + Codex", 16)
+    text(44, 53, "ChatGPT + Codex", 30, "#f2f5fa", "650")
+    text(44, 82, "Token activity & usage insights", 16)
     parts.append('<rect x="915" y="32" width="140" height="30" rx="15" fill="#132d24"/>')
     parts.append('<circle cx="934" cy="47" r="4" fill="#56d89a"/>')
     text(948, 52, "AUTO-UPDATED", 11, "#87dfb3", "600")
