@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660" role="img" aria-labelledby="title desc">
 <title id="title">ChatGPT activity profile</title>
-<desc id="desc">MotoChase: 698,745,204 lifetime tokens, 578 chats, 128 day streak. Updated Sep 29, 2026 · 07:55 PM EDT.</desc>
+<desc id="desc">ChatGPT + Codex activity: 698,745,204 lifetime tokens, 578 chats, 128 day streak. Updated Sep 29, 2026 · 07:58 PM EDT.</desc>
 <rect x="1" y="1" width="1098" height="658" rx="22" fill="#15181e" stroke="#303641"/>
 <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
-<text x="44" y="53" font-size="30" fill="#f2f5fa" font-weight="650" text-anchor="start">MotoChase</text>
-<text x="44" y="82" font-size="16" fill="#a6afbf" font-weight="400" text-anchor="start">@motochase · ChatGPT + Codex</text>
+<text x="44" y="53" font-size="30" fill="#f2f5fa" font-weight="650" text-anchor="start">ChatGPT + Codex</text>
+<text x="44" y="82" font-size="16" fill="#a6afbf" font-weight="400" text-anchor="start">Token activity &amp; usage insights</text>
 <rect x="915" y="32" width="140" height="30" rx="15" fill="#132d24"/>
 <circle cx="934" cy="47" r="4" fill="#56d89a"/>
 <text x="948" y="52" font-size="11" fill="#87dfb3" font-weight="600" text-anchor="start">AUTO-UPDATED</text>
@@ -435,5 +435,5 @@
 <text x="1056" y="596" font-size="14" fill="#a6afbf" font-weight="400" text-anchor="end">2 runs</text>
 <text x="602" y="619" font-size="14" fill="#e4e9f2" font-weight="400" text-anchor="start">$grilling</text>
 <text x="1056" y="619" font-size="14" fill="#a6afbf" font-weight="400" text-anchor="end">2 runs</text>
-<text x="44" y="642" font-size="12" fill="#a6afbf" font-weight="400" text-anchor="start">Last updated Sep 29, 2026 · 07:55 PM EDT · Refreshes hourly from my Mac</text>
+<text x="44" y="642" font-size="12" fill="#a6afbf" font-weight="400" text-anchor="start">Last updated Sep 29, 2026 · 07:58 PM EDT · Refreshes hourly from my Mac</text>
 </g></svg>
