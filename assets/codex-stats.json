@@ -2,7 +2,7 @@
   "schema_version": 2,
   "card_version": 2,
   "source": "ChatGPT desktop profile",
-  "as_of_date": "2026-09-29",
+  "as_of_date": "2026-09-30",
   "stats": {
     "lifetime_tokens": 698745204,
     "peak_daily_tokens": 171724138,
@@ -713,5 +713,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-30T00:02:22+00:00"
+  "updated_at": "2026-09-30T04:13:25+00:00"
 }
