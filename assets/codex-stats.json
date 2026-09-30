@@ -1,5 +1,6 @@
 {
   "schema_version": 2,
+  "card_version": 2,
   "source": "ChatGPT desktop profile",
   "as_of_date": "2026-09-29",
   "stats": {
@@ -712,5 +713,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-29T23:58:54+00:00"
+  "updated_at": "2026-09-30T00:02:22+00:00"
 }
