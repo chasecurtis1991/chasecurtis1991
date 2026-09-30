@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660" role="img" aria-labelledby="title desc">
 <title id="title">ChatGPT activity profile</title>
-<desc id="desc">ChatGPT + Codex activity: 709,601,306 lifetime tokens, 583 chats, 129 day streak. Updated Sep 30, 2026 · 11:26 AM EDT.</desc>
+<desc id="desc">ChatGPT + Codex activity: 710,344,741 lifetime tokens, 583 chats, 129 day streak. Updated Sep 30, 2026 · 02:28 PM EDT.</desc>
 <rect x="1" y="1" width="1098" height="658" rx="22" fill="#15181e" stroke="#303641"/>
 <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
 <text x="44" y="53" font-size="30" fill="#f2f5fa" font-weight="650" text-anchor="start">ChatGPT + Codex</text>
@@ -9,7 +9,7 @@
 <circle cx="934" cy="47" r="4" fill="#56d89a"/>
 <text x="948" y="52" font-size="11" fill="#87dfb3" font-weight="600" text-anchor="start">AUTO-UPDATED</text>
 <rect x="44" y="111" width="1012" height="96" rx="13" fill="#1d222b" stroke="#303641"/>
-<text x="145.2" y="150" font-size="25" fill="#f2f5fa" font-weight="600" text-anchor="middle">709.6M</text>
+<text x="145.2" y="150" font-size="25" fill="#f2f5fa" font-weight="600" text-anchor="middle">710.3M</text>
 <text x="145.2" y="179" font-size="14" fill="#a6afbf" font-weight="400" text-anchor="middle">Lifetime tokens</text>
 <text x="347.6" y="150" font-size="25" fill="#f2f5fa" font-weight="600" text-anchor="middle">171.7M</text>
 <text x="347.6" y="179" font-size="14" fill="#a6afbf" font-weight="400" text-anchor="middle">Peak daily tokens</text>
@@ -404,7 +404,7 @@
 <rect x="1032" y="290" width="16" height="16" rx="4" fill="#80b9ff"><title>2026-09-27: 57,828,273 tokens</title></rect>
 <rect x="1032" y="309" width="16" height="16" rx="4" fill="#80b9ff"><title>2026-09-28: 13,506,590 tokens</title></rect>
 <rect x="1032" y="328" width="16" height="16" rx="4" fill="#80b9ff"><title>2026-09-29: 3,539,474 tokens</title></rect>
-<rect x="1032" y="347" width="16" height="16" rx="4" fill="#80b9ff"><title>2026-09-30: 7,533,038 tokens</title></rect>
+<rect x="1032" y="347" width="16" height="16" rx="4" fill="#80b9ff"><title>2026-09-30: 8,276,473 tokens</title></rect>
 <text x="44" y="444" font-size="12" fill="#a6afbf" font-weight="400" text-anchor="start">Color intensity is relative to active days</text>
 <text x="922" y="444" font-size="12" fill="#a6afbf" font-weight="400" text-anchor="end">Less</text>
 <rect x="934" y="433" width="14" height="14" rx="3" fill="#2c323c"/>
@@ -436,5 +436,5 @@
 <text x="1056" y="596" font-size="14" fill="#a6afbf" font-weight="400" text-anchor="end">2 runs</text>
 <text x="602" y="619" font-size="14" fill="#e4e9f2" font-weight="400" text-anchor="start">$grilling</text>
 <text x="1056" y="619" font-size="14" fill="#a6afbf" font-weight="400" text-anchor="end">2 runs</text>
-<text x="44" y="642" font-size="12" fill="#a6afbf" font-weight="400" text-anchor="start">Last updated Sep 30, 2026 · 11:26 AM EDT · Refreshes hourly from my Mac</text>
+<text x="44" y="642" font-size="12" fill="#a6afbf" font-weight="400" text-anchor="start">Last updated Sep 30, 2026 · 02:28 PM EDT · Refreshes hourly from my Mac</text>
 </g></svg>
