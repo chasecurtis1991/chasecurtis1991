@@ -97,7 +97,7 @@ def public_data(response, now):
             invocations.append({"type": kind, "name": str(name)[:120],
                                 "usage_count": number(item["usage_count"], "usage_count")})
     stats["top_invocations"] = invocations
-    return {"schema_version": 2, "source": "ChatGPT desktop profile",
+    return {"schema_version": 2, "card_version": 2, "source": "ChatGPT desktop profile",
             "as_of_date": now.date().isoformat(),
             "stats": stats}
 
@@ -219,7 +219,7 @@ def publish(data):
             return
     data["updated_at"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     assets = {"assets/codex-stats.json": json.dumps(data, indent=2, ensure_ascii=False) + "\n",
-              "assets/codex-activity.svg": render_card(data)}
+              "assets/codex-activity-v2.svg": render_card(data)}
     tree = [{"path": path, "mode": "100644", "type": "blob", "content": content}
             for path, content in assets.items()]
     tree_payload = {"tree": tree}
@@ -260,7 +260,7 @@ def main():
             data["updated_at"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
             args.output.mkdir(parents=True, exist_ok=True)
             (args.output / "codex-stats.json").write_text(json.dumps(data, indent=2) + "\n")
-            (args.output / "codex-activity.svg").write_text(render_card(data))
+            (args.output / "codex-activity-v2.svg").write_text(render_card(data))
             print("Rendered local preview; nothing published.")
 
 

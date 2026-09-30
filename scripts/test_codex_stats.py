@@ -73,7 +73,7 @@ class ProfileStatsTests(unittest.TestCase):
             stats.publish(self.data())
         tree = api.call_args_list[3].args[2]["tree"]
         self.assertEqual({item["path"] for item in tree},
-                         {"assets/codex-stats.json", "assets/codex-activity.svg"})
+                         {"assets/codex-stats.json", "assets/codex-activity-v2.svg"})
         self.assertEqual(api.call_args_list[4].args[2]["parents"], ["old"])
         self.assertEqual(api.call_args_list[5].args[2], {"sha": "new-commit", "force": False})
 

@@ -34,7 +34,7 @@ python3 scripts/update_codex_stats.py
 
 The preview is written to `/private/tmp/codex-profile-preview`. Public output
 is committed atomically to the `codex-stats` branch as
-`assets/codex-activity.svg` and `assets/codex-stats.json`. The default branch
+`assets/codex-activity-v2.svg` and `assets/codex-stats.json`. The default branch
 is untouched by routine refreshes. Unchanged data produces no commit, except
 for the daily date rollover needed to advance the calendar. Streaks and totals
 come directly from the service; heatmap colors use quartiles of active days
@@ -43,3 +43,6 @@ in the displayed year. GitHub's image cache may delay visible changes.
 Pause or delete the **GitHub profile stats** automation in the desktop app
 to stop automatic updates. It requires the Mac and desktop app to be running
 and network access to be available.
+
+Layout revisions use a new image filename so an earlier cached layout does not
+remain visible after the README changes.

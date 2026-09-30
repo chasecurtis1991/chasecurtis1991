@@ -8,7 +8,7 @@ Currently serving as Technical Director at a Shopify Plus e-commerce company —
 
 ## 🤖 ChatGPT + Codex Activity
 
-![ChatGPT and Codex activity: token totals, streaks, daily heatmap, and most used skills and plugins](https://raw.githubusercontent.com/chasecurtis1991/chasecurtis1991/codex-stats/assets/codex-activity.svg)
+![ChatGPT and Codex activity: token totals, streaks, daily heatmap, and most used skills and plugins](https://raw.githubusercontent.com/chasecurtis1991/chasecurtis1991/codex-stats/assets/codex-activity-v2.svg)
 
 <sub>Automatically refreshed hourly from my Mac while the desktop app is running. The card shows the last successful update.</sub>
 
