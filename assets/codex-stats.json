@@ -4,16 +4,16 @@
   "source": "ChatGPT desktop profile",
   "as_of_date": "2026-10-06",
   "stats": {
-    "lifetime_tokens": 1617803538,
+    "lifetime_tokens": 1630697450,
     "peak_daily_tokens": 213661920,
     "current_streak_days": 135,
     "longest_streak_days": 135,
     "total_threads": 616,
     "longest_running_turn_sec": 4068,
-    "fast_mode_usage_percentage": 6.65198237885463,
+    "fast_mode_usage_percentage": 6.58238884045336,
     "total_skills_used": 43,
     "unique_skills_used": 21,
-    "most_used_reasoning_effort_percentage": 51.75260129047259,
+    "most_used_reasoning_effort_percentage": 51.89448718690345,
     "most_used_reasoning_effort": "medium",
     "daily_usage_buckets": [
       {
@@ -710,7 +710,7 @@
       },
       {
         "start_date": "2026-10-06",
-        "tokens": 15160628
+        "tokens": 28054540
       }
     ],
     "top_invocations": [
@@ -741,5 +741,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-06T14:16:32+00:00"
+  "updated_at": "2026-10-06T16:20:23+00:00"
 }
