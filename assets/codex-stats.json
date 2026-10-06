@@ -2,18 +2,18 @@
   "schema_version": 2,
   "card_version": 2,
   "source": "ChatGPT desktop profile",
-  "as_of_date": "2026-10-01",
+  "as_of_date": "2026-10-05",
   "stats": {
-    "lifetime_tokens": 912444779,
-    "peak_daily_tokens": 173641591,
-    "current_streak_days": 130,
-    "longest_streak_days": 130,
-    "total_threads": 597,
-    "longest_running_turn_sec": 1632,
-    "fast_mode_usage_percentage": 7.04225352112676,
-    "total_skills_used": 40,
-    "unique_skills_used": 19,
-    "most_used_reasoning_effort_percentage": 45.55482922046086,
+    "lifetime_tokens": 1549070243,
+    "peak_daily_tokens": 213661920,
+    "current_streak_days": 134,
+    "longest_streak_days": 134,
+    "total_threads": 615,
+    "longest_running_turn_sec": 4068,
+    "fast_mode_usage_percentage": 6.75615212527964,
+    "total_skills_used": 43,
+    "unique_skills_used": 21,
+    "most_used_reasoning_effort_percentage": 51.11389087443412,
     "most_used_reasoning_effort": "medium",
     "daily_usage_buckets": [
       {
@@ -690,19 +690,35 @@
       },
       {
         "start_date": "2026-10-01",
-        "tokens": 36734920
+        "tokens": 213661920
+      },
+      {
+        "start_date": "2026-10-02",
+        "tokens": 151490083
+      },
+      {
+        "start_date": "2026-10-03",
+        "tokens": 170327523
+      },
+      {
+        "start_date": "2026-10-04",
+        "tokens": 73012568
+      },
+      {
+        "start_date": "2026-10-05",
+        "tokens": 64868290
       }
     ],
     "top_invocations": [
       {
         "type": "skill",
         "name": "imagegen",
-        "usage_count": 16
+        "usage_count": 17
       },
       {
         "type": "plugin",
         "name": "anthropic-skills",
-        "usage_count": 3
+        "usage_count": 4
       },
       {
         "type": "plugin",
@@ -721,5 +737,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-01T21:22:54+00:00"
+  "updated_at": "2026-10-06T01:08:19+00:00"
 }
